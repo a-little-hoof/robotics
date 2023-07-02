@@ -15,7 +15,7 @@ SIM_TIME = 5
 TIMESTEP = 0.1
 NUMBER_OF_TIMESTEPS = int(SIM_TIME/TIMESTEP)
 # robot config
-ROBOT_NUM = 4
+ROBOT_NUM = 3
 ROBOT_RADIUS = 0.5
 VMAX = 2
 VMIN = 0.2
@@ -23,7 +23,7 @@ START_POINT = [[5, 5, 0, 0], [2, 3, 0, 0],[1,10,0,0],[10,1,0,0]]#, [8, 9, 0, 0]]
 GOAL = [[5, 5, 0, 0], [8, 8, 0, 0],[10,1,0,0],[1,10,0,0]]#, [9, 8, 0, 0]]
 # obstacle config
 OBJ_NUM = 4
-SPEED = [0, 0, 0, 2]
+SPEED = [-2, 2, 2, 2]
 START_OBS = [[5, 7],[3, 5],[7, 7],[7.5, 2.5]]
 DIRECIONS = [np.pi/2,0,-np.pi*3/4,np.pi*3/4]
 
